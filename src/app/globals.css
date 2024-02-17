@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Barriecito);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  body {
+    @apply
+    min-h-screen
+  }
+
+  .btn-read{
+    @apply
+
+    block w-full 
+    bg-black 
+    hover:bg-slate-500 
+    text-white 
+    font-bold 
+    rounded-lg
+  }
+
+  .close{
+
+    @apply
+    block w-full 
+    bg-black 
+    hover:bg-slate-500 
+    text-white 
+    font-black
+    text-xl
+  }
+
+  .cardwrapper{
+
+    @apply
+    grid 
+    grid-cols-1 
+    md:grid-cols-2 
+    lg:grid-cols-3
+    gap-4
+
+    mx-5 
+    md:mx-2
+    xl:mx-20
+
+  }
+
+
+
+}
+
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: white;
+}
+

@@ -1,0 +1,177 @@
+{
+  "settings": {
+    "backgroundcolor": "",
+    "headercolor": [
+      {
+        "bgcolor": "",
+        "textcolor": ""
+      }
+    ],
+    "sectionheadline": [
+      {
+        "bgcolor": "",
+        "textcolor": ""
+      }
+    ],
+    "cardheadercolor": {
+      "bgcolor": "",
+      "textcolor": ""
+    },
+    "cardsectioncolor": {
+      "bgcolor": "",
+      "textcolor": ""
+    }
+  },
+  "intro": {
+    "title": "",
+    "content": "Webdesigner/Webudvikler/Frontendudvikler"
+  },
+  "social": [
+    {
+      "title":"Linkedin",
+      "link":"http://linkedin"
+    }
+  ],
+
+"footer":"Yes a footer",
+
+  "present": {
+    "title": "Under uddannelse",
+    "content": "Er ved at være klar"
+  },
+
+
+  "category":{
+
+  "job": [
+    {
+      "id": 1,
+      "headline": "last job",
+      "content": "last",
+      "image": "",
+      "links:": [
+        {
+          "online": "",
+          "github": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "headline": "second last job",
+      "content": "second last",
+      "image": "",
+      "links:": [
+        {
+          "online": "",
+          "github": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "headline": "third last job",
+      "content": "third",
+      "image": "",
+      "links:": [
+        {
+          "online": "",
+          "github": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "headline": "Fourth last job",
+      "content": "Fourth last",
+      "image": "",
+      "links:": [
+        {
+          "online": "",
+          "github": ""
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "headline": "JavaScript/TypeScript OOP",
+      "content": "",
+      "image": "",
+      "links:": [
+        {
+          "online": "",
+          "github": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "headline": "Next.js CSS sass og Tailwind",
+      "content": "",
+      "image": "",
+      "links:": [
+        {
+          "online": "",
+          "github": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "headline": "Node, NPM og Webpack",
+      "content": "",
+      "image": "",
+      "links:": [
+        {
+          "online": "",
+          "github": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "headline": "API udvikling via Baas/DBaas",
+      "content": "Jeg kan arbejde med udvikling af API, via forskellige platformsløsninger, såsom Baas Supabase og DBaas MongoDB, både i den nye  NEXT-> API model, og via Express.",
+      "image": "",
+      "links:": [
+        {
+          "online": "",
+          "github": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "headline": "React Native & ionic Capacitor",
+      "content": "",
+      "image": "",
+      "links:": [
+        {
+          "online": "",
+          "github": ""
+        }
+      ]
+    }
+  ],
+
+  "fun":[
+    {
+      "id": 1,
+      "headline": "JavaScript/TypeScript OOP",
+      "content": "",
+      "image": "",
+      "links:": [
+        {
+          "online": "",
+          "github": ""
+        }
+      ]
+    }
+
+  ]
+}
+
+
+}
