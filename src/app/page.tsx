@@ -4,14 +4,12 @@ import Card from "@/components/Card";
 import data from "@/data/data.json";
 import { Content } from "@/type/types";
 import { Category, cat } from "@/type/test";
-import { useEffect, useState } from "react";
-import { isMobile } from "react-device-detect";
+import usePhoneLink from "@/hooks/usePhoneLink";
 
 const Page = () => {
 
-  const phoneNumber = '123456';
-  const phoneLink = isMobile ? <a className="hover:text-gray-300" href={`tel:${phoneNumber}`}>{phoneNumber}</a> : phoneNumber;
-
+  const phoneNumber:string = '123456';
+  const phoneLink = usePhoneLink(phoneNumber);
 
   return (
     <>
@@ -26,7 +24,7 @@ const Page = () => {
             <div className="cardwrapper">
 
               {(data.category[category]) &&
-              (data.category[category]).map((item:cat, innerIndex: number) => (
+              (data.category[category]).map((item:cat) => (
                 <Card key={item.id} data={item} />
               ))}
 
